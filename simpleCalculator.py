@@ -48,6 +48,12 @@ elif selection == "divide" or selection == "/":
     result = float(firstOperand) / secondOperand
     result = str('%.3g'%(result))
     print "The quotient is " + result
+    
+elif selection == "mod" or selection == "%":
+    result = float(firstOperand) % secondOperand
+    result = str('%.3g'%(result))
+    print "The remainder is " + result
+
 
 #if user inputs invalid option, program prints statement
 else:
